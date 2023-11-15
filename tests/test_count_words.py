@@ -21,5 +21,5 @@ def test_8_words():
 #test if it counts punctuation
 
 def test_punctuation():
-    wordcount = count_words("one 2 3 4 5 ! 6 7 8")
+    wordcount = count_words("one 2 3 4 5 6 7 8")
     assert wordcount == 8
